@@ -41,6 +41,16 @@ for ele in dates:
         ele.click()
         break
 
+for ele in dates:
+    if ele.text==date:
+        ele.click()
+        break
+
+for ele in dates:
+    if ele.text==date:
+        ele.click()
+        break
+
 
 
 time.sleep(10)
