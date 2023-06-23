@@ -33,7 +33,12 @@ driver.maximize_window()
 sliders=driver.find_elements(By.TAG_NAME,'a')
 print(len(sliders))
 
+sliders=driver.find_elements(By.TAG_NAME,'a')
+print(len(sliders))
+
+sliders=driver.find_elements(By.TAG_NAME,'a')
+print(len(sliders))
+print(len(sliders))
 
 
-
-time.sleep(1000)
+time.sleep(200)

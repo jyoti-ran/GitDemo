@@ -50,6 +50,8 @@ driver.maximize_window()
 
 # following
 descendents=driver.find_elements(By.XPATH,"//*[@id='leftcontainer']/table/tbody/tr[6]/td[1]/a/ancestor::tr/following::*")
+descendents=driver.find_elements(By.XPATH,"//*[@id='leftcontainer']/table/tbody/tr[6]/td[1]/a/ancestor::tr/following::*")
+descendents=driver.find_elements(By.XPATH,"//*[@id='leftcontainer']/table/tbody/tr[6]/td[1]/a/ancestor::tr/following::*")
 
 
 time.sleep(1000)
